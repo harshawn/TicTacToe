@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h> //memset library
 
-char grid[3][3];
+char grid[3][3]; //2D Array
 
 void print_game() {
 	printf("\n %c | %c | %c \n", grid[0][0], grid[0][1], grid[0][2] );
